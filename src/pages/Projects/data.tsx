@@ -5,7 +5,7 @@ export const projects: Project[] = [
   {
     id: 3,
     type: "image",
-    identifier: "RgRE_R4554AS",
+    identifier: "RgR",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/web/Dr.Pack/2x/1.png",
     mediaViewer: {
@@ -197,7 +197,7 @@ export const projects: Project[] = [
   {
     id: 25,
     type: "image",
-    identifier: "uzU01cXLesPm",
+    identifier: "uzU",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/web/Pharmacy RX/2x/cover.png",
     mediaViewer: {
@@ -439,7 +439,7 @@ export const projects: Project[] = [
   {
     id: 26,
     type: "image",
-    identifier: "kziHy_ElTTWo",
+    identifier: "kzi",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/2x/cover.PNG",
     mediaViewer: {
@@ -596,7 +596,7 @@ export const projects: Project[] = [
   {
     id: 27,
     type: "image",
-    identifier: "aSeoPvZu6REo",
+    identifier: "aSe",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/web/Dashboard Builder/2x/1.png",
     mediaViewer: {
@@ -736,7 +736,7 @@ export const projects: Project[] = [
   {
     id: 4,
     type: "image",
-    identifier: "Vf8dl3HM2qRE",
+    identifier: "Vf8",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/web/business frames/2x/cover.jpg",
     mediaViewer: {
@@ -1201,7 +1201,7 @@ export const projects: Project[] = [
   {
     id: 24,
     type: "image",
-    identifier: "E_yY-9mZiWs",
+    identifier: "E_y",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/web/X.eMAR/2x/8.PNG",
     mediaViewer: {
@@ -1376,7 +1376,7 @@ export const projects: Project[] = [
   {
     id: 6,
     type: "image",
-    identifier: "Mja94doMpl3x",
+    identifier: "Mja",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/web/medX/2x/cover.jpg",
     mediaViewer: {
@@ -1566,7 +1566,7 @@ export const projects: Project[] = [
   {
     id: 23,
     type: "image",
-    identifier: "wWaqV960q1e",
+    identifier: "wWa",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/web/poulX/2x/1.jpg",
     mediaViewer: {
@@ -1963,7 +1963,7 @@ export const projects: Project[] = [
   {
     id: 10,
     type: "image",
-    identifier: "7sSnWeFQBNpc",
+    identifier: "7sS",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/mobile/defcon patrols/2x/cover.jpg",
     mediaViewer: {
@@ -2144,7 +2144,7 @@ export const projects: Project[] = [
   {
     id: 13,
     type: "image",
-    identifier: "-R0i61nMUz6",
+    identifier: "-R0",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/mobile/metrowatch/2x/cover.jpg",
     mediaViewer: {
@@ -2317,7 +2317,7 @@ export const projects: Project[] = [
   {
     id: 9,
     type: "image",
-    identifier: "kuLCpGMIxm66",
+    identifier: "kuL",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/mobile/ordert/2x/cover.png",
     mediaViewer: {
@@ -2523,7 +2523,7 @@ export const projects: Project[] = [
   {
     id: 11,
     type: "image",
-    identifier: "6PnLfhTwv2H3",
+    identifier: "6Pn",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/mobile/digitalX/2x/cover.jpg",
     mediaViewer: {
@@ -2694,7 +2694,7 @@ export const projects: Project[] = [
   {
     id: 12,
     type: "image",
-    identifier: "01HRZlfiJjIq",
+    identifier: "01q",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/mobile/muslim app/2x/cover.jpg",
     mediaViewer: {
@@ -2866,7 +2866,7 @@ export const projects: Project[] = [
   {
     id: 14,
     type: "image",
-    identifier: "_UEfseHtkHJu",
+    identifier: "_UE",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/mobile/global mobility/2x/cover.jpg",
     mediaViewer: {
@@ -3033,7 +3033,7 @@ export const projects: Project[] = [
   {
     id: 21,
     type: "image",
-    identifier: "EG_cUoFLJHqk",
+    identifier: "EG_",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/qi/output.png",
     mediaViewer: {
@@ -3127,7 +3127,7 @@ export const projects: Project[] = [
   {
     id: 15,
     type: "image",
-    identifier: "xzIzHMifFanJ",
+    identifier: "xzI",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/cc/6.png",
     mediaViewer: {
@@ -3297,7 +3297,7 @@ export const projects: Project[] = [
   {
     id: 1,
     type: "video",
-    identifier: "wNRSSbKAaA_s",
+    identifier: "wNR",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/sc/1.jpg",
     mediaViewer: {
@@ -3545,7 +3545,7 @@ export const projects: Project[] = [
   {
     id: 16,
     type: "video",
-    identifier: "ecC_R-CvZCjE",
+    identifier: "ec-",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/ss/cover.png",
     mediaViewer: {
@@ -3956,7 +3956,7 @@ export const projects: Project[] = [
   {
     id: 18,
     type: "video",
-    identifier: "pgbNXfd-jsIa",
+    identifier: "pgb",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/cb/cover.png",
     mediaViewer: {
@@ -4052,7 +4052,7 @@ export const projects: Project[] = [
   {
     id: 2,
     type: "video",
-    identifier: "BEuLKoxaZNwj",
+    identifier: "BEu",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/ms/4.jpg",
     mediaViewer: {
@@ -4228,7 +4228,7 @@ export const projects: Project[] = [
   {
     id: 19,
     type: "video",
-    identifier: "nJcxpYWhAWuL",
+    identifier: "nJc",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/hi/cover.png",
     mediaViewer: {
@@ -4354,7 +4354,7 @@ export const projects: Project[] = [
   {
     id: 20,
     type: "video",
-    identifier: "QYoRjfnBfIWr",
+    identifier: "QYo",
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/sa/cover.png",
     mediaViewer: {

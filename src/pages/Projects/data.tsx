@@ -547,6 +547,94 @@ export const projects: Project[] = [
         highlightWord: "",
         tag: 2,
       },
+      {
+        mediaViewer: {
+          image:
+            "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/2x/9.PNG",
+          mediaViewType: "V",
+        },
+        src: "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/3x/9.PNG",
+        type: "image",
+        highlightWord: "",
+        tag: 2,
+      },
+      {
+        mediaViewer: {
+          image:
+            "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/2x/10.PNG",
+          mediaViewType: "V",
+        },
+        src: "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/3x/10.PNG",
+        type: "image",
+        highlightWord: "",
+        tag: 2,
+      },
+      {
+        mediaViewer: {
+          image:
+            "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/2x/11.PNG",
+          mediaViewType: "V",
+        },
+        src: "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/3x/11.PNG",
+        type: "image",
+        highlightWord: "",
+        tag: 2,
+      },
+      {
+        mediaViewer: {
+          image:
+            "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/2x/12.PNG",
+          mediaViewType: "V",
+        },
+        src: "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/3x/12.PNG",
+        type: "image",
+        highlightWord: "",
+        tag: 2,
+      },
+      {
+        mediaViewer: {
+          image:
+            "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/2x/13.PNG",
+          mediaViewType: "V",
+        },
+        src: "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/3x/13.PNG",
+        type: "image",
+        highlightWord: "",
+        tag: 2,
+      },
+      {
+        mediaViewer: {
+          image:
+            "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/2x/14.PNG",
+          mediaViewType: "V",
+        },
+        src: "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/3x/14.PNG",
+        type: "image",
+        highlightWord: "",
+        tag: 2,
+      },
+      {
+        mediaViewer: {
+          image:
+            "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/2x/15.PNG",
+          mediaViewType: "V",
+        },
+        src: "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/3x/15.PNG",
+        type: "image",
+        highlightWord: "",
+        tag: 2,
+      },
+      {
+        mediaViewer: {
+          image:
+            "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/2x/16.PNG",
+          mediaViewType: "V",
+        },
+        src: "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/3x/16.PNG",
+        type: "image",
+        highlightWord: "",
+        tag: 2,
+      },
     ],
     linksTitle: "Links:",
     links: [

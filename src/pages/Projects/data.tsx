@@ -1803,6 +1803,13 @@ export const projects: Project[] = [
         actionType: "DEFAULT",
       },
     ],
+    links: [
+      {
+        text: "",
+        url: "https://drive.google.com/drive/folders/1Bzj9Kgjjt8x2Uw1wYuesTJZrGNm3SIlV",
+        clickableText: "DEMO"
+      },
+    ]
   },
   // {
   //   id: 7,

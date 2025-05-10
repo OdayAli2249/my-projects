@@ -3806,7 +3806,7 @@ export const projects: Project[] = [
       {
         text: "Source Code:",
         url: "https://github.com/OdayAli2249/ML-Sudoku-Solver",
-        clickableText: "ML Sudoku Solver",
+        clickableText: "Github",
       },
     ],
     aboutTitle: "About the Project:",

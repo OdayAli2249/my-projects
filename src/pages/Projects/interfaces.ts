@@ -22,6 +22,7 @@ export interface Project {
     aboutItems?: any[];
     options: ProjectOption[];
     customComponent?: ReactNode;
+    private?: boolean;
 }
 
 

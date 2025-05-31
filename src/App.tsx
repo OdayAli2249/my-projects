@@ -99,7 +99,7 @@ const App = () => {
   const [showSnackbar, setShowSnackbar] = useState(false);
 
   useEffect(() => {
-    if (project?.links?.length) {
+    if (project?.private) {
       setTimeout(() => {
         setShowSnackbar(true);
       }, 1000); // delay for better UX

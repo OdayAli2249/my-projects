@@ -6,6 +6,7 @@ export const projects: Project[] = [
     id: 3,
     type: "image",
     identifier: "RgR",
+    private: true,
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/web/Dr.Pack/2x/1.png",
     mediaViewer: {
@@ -440,6 +441,7 @@ export const projects: Project[] = [
     id: 26,
     type: "image",
     identifier: "kzi",
+    private: true,
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/web/Ignite Shield/2x/cover.PNG",
     mediaViewer: {
@@ -1295,6 +1297,7 @@ export const projects: Project[] = [
     id: 24,
     type: "image",
     identifier: "E_y",
+    private: true,
     mediaUrl:
       "https://odayali2249.github.io/portfolio-resources/resources/web/X.eMAR/2x/8.PNG",
     mediaViewer: {

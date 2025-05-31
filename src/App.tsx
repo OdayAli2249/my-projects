@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { useSwipeable } from "react-swipeable";
 import { projects } from "./pages/Projects/data";
 import { getProjectId } from "./utils/functions";
@@ -96,6 +96,16 @@ const App = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState<number | null>(null);
 
+  const [showSnackbar, setShowSnackbar] = useState(false);
+
+  useEffect(() => {
+    if (project?.links?.length) {
+      setTimeout(() => {
+        setShowSnackbar(true);
+      }, 1000); // delay for better UX
+    }
+  }, [project]);
+
   const noProject = projectIdentifier === "not-found" || !project;
 
   const openImage = (index: number) => {
@@ -154,6 +164,42 @@ const App = () => {
       {modalOpen && currentImageIndex !== null && (
         <ImageModal images={project?.gallery ?? []} currentIndex={currentImageIndex} onClose={() => setModalOpen(false)} />
       )}
+      <AnimatePresence>
+        {showSnackbar && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 20 }}
+            transition={{ duration: 0.3 }}
+            className="fixed bottom-6 right-6 w-[340px] min-h-[120px] bg-white/80 backdrop-blur-md shadow-xl border border-gray-300 rounded-xl p-4 pr-10 text-gray-800 text-[1.05rem] z-50"
+          >
+            <button
+              onClick={() => setShowSnackbar(false)}
+              className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
+              aria-label="Close"
+            >
+              {/* SVG Close Icon */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+                className="w-5 h-5"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+            <strong className="block mb-1 font-semibold">Private project access</strong>
+            This platform link leads to the <strong>development environment</strong>. Due to policy restrictions, access credentials are not public.
+            Please email me at <strong>ody.ali.eng@gmail.com</strong> to request access.
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };

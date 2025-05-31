@@ -643,6 +643,11 @@ export const projects: Project[] = [
         url: "https://stage.alefiot.xyz/",
         clickableText: "Visit the platform",
       },
+      {
+        text: "",
+        url: "https://drive.google.com/file/d/1tr4HbVSUUVtRuCJ8SHqY75O1lX4gn1DZ/view?usp=sharing",
+        clickableText: "Quick Demo",
+      },
     ],
     aboutTitle: "About the Project:",
     aboutItems: [
